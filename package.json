@@ -1,6 +1,6 @@
 {
-  "name": "react-components",
-  "version": "0.0.1",
+  "name": "@MohanNathan2/react-components",
+  "version": "0.0.2",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -22,5 +22,11 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/MohanNathan2"
+  },
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
